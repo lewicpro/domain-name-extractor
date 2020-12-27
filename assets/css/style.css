@@ -111,14 +111,6 @@ i {
   line-height: normal;
 }
 
-.d-table {
-  width: 100%;
-  height: 100%;
-}
-
-.d-table-cell {
-  vertical-align: middle;
-}
 
 img {
   max-width: 100%;
@@ -2582,159 +2574,11 @@ Pricing Area CSS
   overflow-x: unset;
 }
 
-.pricing-table .table {
-  margin-bottom: 0;
-}
 
-.pricing-table .table thead th {
-  vertical-align: middle;
-  background-color: #f1f0f3;
-  padding: 30px 20px;
-  text-align: center;
-  border: none;
-  border-bottom: 1px solid #fafafa;
-}
 
-.pricing-table .table thead th span {
-  color: #202647;
-  margin-bottom: 0;
-  font-size: 22px;
-  font-weight: bold;
-  font-family: "Nunito", sans-serif;
-}
 
-.pricing-table .table thead th:first-child {
-  text-align: left;
-  padding-left: 30px;
-}
 
-.pricing-table .table tbody tr td {
-  padding: 30px 20px;
-  vertical-align: middle;
-  border: none;
-  text-align: center;
-  font-size: 16px;
-  color: #202647;
-  font-weight: 500;
-}
 
-.pricing-table .table tbody tr td:first-child {
-  text-align: left;
-  padding-left: 30px;
-}
-
-.pricing-table .table tbody tr td.icon i {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 100%;
-  background-color: #000244;
-  color: #ffffff;
-}
-
-.pricing-table .table tbody tr.optional-color {
-  background-color: #f1f0f3;
-}
-
-.pricing-table .table tbody tr.optional-color {
-  background: -webkit-gradient(linear, left top, right top, from(#cceee9), color-stop(#bce7eb), color-stop(#b1dfef), color-stop(#add5f1), to(#b2c9f0));
-  background: linear-gradient(to right, #cceee9, #bce7eb, #b1dfef, #add5f1, #b2c9f0);
-}
-
-.pricing-table .table tbody tr.optional-color td.icon i {
-  background-color: #ffffff;
-  color: #000244;
-}
-
-.pricing-table .table tbody tr.select-btn {
-  background-color: #ffffff;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-}
-
-.pricing-table .table tbody tr.select-btn h3 {
-  font-size: 25px;
-  margin-bottom: 15px;
-}
-
-.pricing-table .table tbody tr.select-btn .select-btn-one {
-  display: inline-block;
-  color: #ffffff;
-  background-color: #000244;
-  padding: 14px 30px;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.pricing-table .table tbody tr.select-btn .select-btn-one:hover {
-  color: #ffffff;
-  background-color: #3c62e9;
-}
-
-.single-pricing-table {
-  margin-bottom: 30px;
-  text-align: center;
-  background-color: #ffffff;
-  border: 1px solid #f4f5fe;
-  padding: 35px 25px 30px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 5px;
-}
-
-.single-pricing-table .pricing-header h3 {
-  font-size: 25px;
-  margin-bottom: 5;
-}
-
-.single-pricing-table .pricing-header p {
-  margin-bottom: 0;
-  font-size: 15px;
-}
-
-.single-pricing-table .price {
-  font-size: 40px;
-  color: #3c62e9;
-  margin-top: 20px;
-  margin-bottom: 25px;
-  line-height: 1;
-}
-
-.single-pricing-table .pricing-features {
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.single-pricing-table .pricing-features li {
-  list-style-type: none;
-  margin-bottom: 15px;
-  font-size: 16px;
-  color: #6b6b84;
-  font-weight: 400;
-}
-
-.single-pricing-table .pricing-features li:last-child {
-  margin-bottom: 0;
-}
-
-.single-pricing-table .pricing-features li i {
-  color: #3c62e9;
-  margin-right: 5px;
-  font-size: 15px;
-}
-
-.single-pricing-table .pricing-btn {
-  margin-top: 25px;
-}
-
-.single-pricing-table .pricing-btn .default-btn {
-  padding: 12px 35px;
-  border-radius: 5px;
-  font-size: 15px;
-}
 
 .single-pricing-table:hover {
   -webkit-transform: translateY(-5px);
@@ -6020,72 +5864,14 @@ Server Domain Area CSS
   margin-bottom: 0;
 }
 
-.server-domain-box .server-domain-table {
-  background-color: #ffffff;
-  border: 1px solid #f4f5fe;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 5px;
-  margin-top: 30px;
-}
 
-.server-domain-box .server-domain-table .header {
-  text-align: center;
-}
 
-.server-domain-box .server-domain-table .header h4 {
-  font-size: 25px;
-  margin-bottom: 0;
-  background-color: #f5f5f5;
-  display: inline-block;
-  padding: 30px;
-  width: 100%;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 5px 5px 0 0;
-}
 
-.server-domain-box .server-domain-table .features {
-  padding-left: 0;
-  margin-bottom: 0;
-  padding: 30px;
-}
 
-.server-domain-box .server-domain-table .features li {
-  list-style-type: none;
-  margin-bottom: 15px;
-  font-size: 16px;
-  color: #6b6b84;
-  font-weight: 400;
-  position: relative;
-  padding-left: 22px;
-}
 
-.server-domain-box .server-domain-table .features li:last-child {
-  margin-bottom: 0;
-}
 
-.server-domain-box .server-domain-table .features li::before {
-  position: absolute;
-  content: "";
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  left: 0;
-  top: 3px;
-  background: #3c62e9;
-}
 
-.server-domain-box .server-domain-table .domain-btn {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
 
-.server-domain-box .server-domain-table .domain-btn h5 {
-  font-size: 25px;
-  margin-bottom: 15px;
-}
 
 .server-domain-box .server-domain-table:hover {
   -webkit-transform: translateY(-5px);
@@ -6100,69 +5886,21 @@ Server Domain Area CSS
   color: #ffffff;
 }
 
-.server-domain-box .transfer-domain-table {
-  margin-top: 30px;
-}
+
 
 .server-domain-box .transfer-domain-table.table-responsive {
   overflow-x: unset;
 }
 
-.server-domain-box .transfer-domain-table .table {
-  margin-bottom: 0;
-}
 
-.server-domain-box .transfer-domain-table .table thead th {
-  vertical-align: middle;
-  background-color: #f1f0f3;
-  padding: 30px 20px;
-  text-align: center;
-  border: none;
-}
 
-.server-domain-box .transfer-domain-table .table thead th span {
-  color: #202647;
-  margin-bottom: 0;
-  font-size: 22px;
-  font-weight: bold;
-  font-family: "Nunito", sans-serif;
-}
 
-.server-domain-box .transfer-domain-table .table thead th:first-child {
-  text-align: left;
-  padding-left: 30px;
-}
 
-.server-domain-box .transfer-domain-table .table tbody tr td {
-  padding: 30px 20px;
-  vertical-align: middle;
-  border: none;
-  text-align: center;
-  font-size: 16px;
-  color: #202647;
-  font-weight: 600;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
-          box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
-  font-family: "Nunito", sans-serif;
-}
 
-.server-domain-box .transfer-domain-table .table tbody tr td h3 {
-  color: #202647;
-  margin-bottom: 0;
-  font-size: 25px;
-  font-weight: bold;
-}
 
-.server-domain-box .transfer-domain-table .table tbody tr td p {
-  line-height: 1;
-  margin-top: 10px;
-}
 
-.server-domain-box .transfer-domain-table .table tbody tr td:first-child {
-  text-align: left;
-  padding-left: 30px;
-}
+
+
 
 .server-domain-box .register-domain-form {
   padding: 35px;
@@ -6571,75 +6309,19 @@ Website Builder Area CSS
 /*================================================
 VPS Area CSS
 =================================================*/
-.single-vps-table {
-  margin-bottom: 30px;
-  background-color: #ffffff;
-  border: 1px solid #f4f5fe;
-  padding: 30px 25px 30px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 5px;
-}
 
-.single-vps-table .vps-header h3 {
-  font-size: 25px;
-  margin-bottom: 5;
-}
 
-.single-vps-table .vps-header p {
-  margin-bottom: 0;
-  font-size: 15px;
-}
 
-.single-vps-table .price {
-  font-size: 40px;
-  color: #3c62e9;
-  margin-top: 20px;
-  margin-bottom: 25px;
-  line-height: 1;
-}
 
-.single-vps-table .vps-features {
-  padding-left: 0;
-  margin-bottom: 0;
-}
 
-.single-vps-table .vps-features li {
-  list-style-type: none;
-  margin-bottom: 15px;
-  font-size: 16px;
-  color: #6b6b84;
-  font-weight: 400;
-}
 
-.single-vps-table .vps-features li:last-child {
-  margin-bottom: 0;
-}
 
-.single-vps-table .vps-features li i {
-  color: #3c62e9;
-  margin-right: 5px;
-  font-size: 15px;
-}
 
-.single-vps-table .vps-btn {
-  margin-top: 25px;
-}
 
-.single-vps-table .vps-btn .default-btn {
-  padding: 12px 35px;
-  border-radius: 5px;
-  font-size: 15px;
-  width: 100%;
-}
 
-.single-vps-table:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  border: 1px solid #ffffff;
-}
+
+
+
 
 /*================================================
 Widget Sidebar CSS
